@@ -13,19 +13,34 @@
 }
 
 html, body {
-        height: 100%;
+        height:100%;
         margin: 0;
         padding: 0;
+     	width: 100%;
+  		position: absolute;
+  		top: 0;
+  		left: 0;
+  		
+ 	       
       }
 
-body {
+ body {
 	background-image: url("../img/site-background.jpg");
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	background-size: 100% 100%;
+	height:inherit;
     background-repeat: no-repeat;
-    
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width:100%;
 }
+ 
+
+
 	
 /***** Home Page *****/
 
@@ -36,7 +51,8 @@ body {
 	border-style: solid;
 	border-width: 1px;
 	border-color:#222;
-	
+	position:relative;
+	z-index: 3;
 	
 }
 
@@ -48,10 +64,13 @@ body {
 	border-style: solid;
 	border-width: 1px;
 	border-color:#222;
-	min-height:100%;
-	z-index: 3;
-    background-repeat: no-repeat;
-	
+	height: 100%; 
+  	width: 100%; 
+  	position:absolute; 
+  	top: 0; 
+  	left: 0; 
+	z-index: 1;
+  
 }
 
 #row-pad {
@@ -251,12 +270,10 @@ body {
 /***** Bubbles *****/
 
 #background-wrap {
-    bottom: 0;
-	left: 0;
 	position: fixed;
-	right: 0;
-	top: 0;
+	width:100%;
 	z-index: 2;
+	
 }
 
 /* KEYFRAMES */
