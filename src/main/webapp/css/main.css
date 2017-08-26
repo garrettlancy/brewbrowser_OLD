@@ -46,16 +46,11 @@ body {
 }
 
 #map {
-	height: 100%;
-	z-index: 3;
-}
-
-.map-border {
 	border-style: solid;
 	border-width: 1px;
 	border-color:#222;
-	
-	
+	height: 100%;
+	z-index: 3;
 }
 
 #row-pad {
