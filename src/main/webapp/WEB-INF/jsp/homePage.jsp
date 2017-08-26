@@ -15,17 +15,14 @@
 </div>
 
 
-<div class="col-md-12" id="row-pad">
-<img src="img/brew-logo.png" class="brew-logo col-md-12" />
-</div>
-
-
-<div class="col-md-12 row" id="row-pad">
-<div class="map-border col-md-9" id="map"></div>
 <div>
-<div id="HCB_comment_box" class ="col-md-3 comment-box">loading comments...</div>
+<img src="img/brew-logo.png" class="brew-logo" />
 </div>
-</div>
+
+
+<div class="map-border" id="map"></div>
+
+
 
 
 <%@ include file="common/footer.jspf" %>

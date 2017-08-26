@@ -11,7 +11,7 @@
 		<a href="${breweryDetailsUrl}">
 			<div class="col-md-3 text-center">
 				<div class="brewery-tile">
-					<c:url var="imageUrl" value="/img/thumbnails/${brewery.imgUrl}" />
+					<c:url var="imageUrl" value="/img/breweries/${brewery.imgUrl}" />
 					<img src="${imageUrl}" class="img-responsive"><br>
 					<div>${brewery.name}</div>
 				</div>

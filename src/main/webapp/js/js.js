@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
 	function myMap() {
 		var mapOptions = {
 				center: new google.maps.LatLng(39.9417, -82.9921),
@@ -13,6 +12,7 @@ $(document).ready(function () {
 		}
 		map = new google.maps.Map(document.getElementById("map"), mapOptions);
 	}
+	 
 	$.ajax({
 		url:"breweryListJSON", type:"GET", datatype:"JSON"
 	}).done(function (json){

@@ -1,27 +1,23 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ include file="common/header.jspf"%>
 
-<div class="container-fluid text-center photo-div">
+<div class="container text-center photo-div">
 	<h2>Contact Us</h2>
 	<br>
-	<div class="text-center">
-		<div class="polaroids polaroid-text contain-center">
-			<div class="col-md-3 polaroids-odd">
-				<a href="#" title="Garrett Lancy"><img
-					src="img/garrett_300x300.png" /></a>
+	<div>
+		<div class="polaroids">
+			<div class="polaroids-odd">
+				<a href="https://garrettlancy.github.io/" title="Garrett Lancy" target="_blank"><img
+					src="img/contact/garrett.jpg" /></a>
 			</div>
-			<div class="col-md-3 polaroids-even">
-				<a href="#" title="Andrew Gutierrez"><img
-					src="img/andrew_300x300.png" /></a>
+			<div class="polaroids-even">
+				<a href="https://javajustin91.github.io/" title="Justin Jones" target="_blank"><img
+					src="img/contact/justin.jpg" /></a>
 			</div>
-			<div class="col-md-3 polaroids-odd">
-				<a href="#" title="Daniel Volosov"><img
-					src="img/daniel_300x300.png" /></a>
-			</div>
-			<div class="col-md-3 polaroids-even">
-				<a href="#" title="Stephen Sreshta"><img
-					src="img/stephen_300x300.png" /></a>
-			</div>
+		</div>
+		<div class="text-center polaroid-caption">
+			<div class="caption-content">Garrett Lancy Co-Founder and CEO</div>
+			<div class="caption-content">Justin Jones Co-Founder and COO</div>
 		</div>
 	</div>
 	<br> <br>
