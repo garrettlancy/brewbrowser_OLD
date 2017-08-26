@@ -1,4 +1,4 @@
-</body>
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -8,5 +8,5 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAT0qjuPy-UeGLmlgtMt1tuOMX0arTBdo"></script>
 <!-- JavaScript -->
 <script type="text/javascript" src="js/js.js"></script>
-
+</body>
 </html>
