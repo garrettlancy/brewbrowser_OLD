@@ -20,7 +20,7 @@
 </div>
 
 
-<div class="map-border" id="map"></div>
+ <div class="map-border" id="map"></div> 
 
 
 

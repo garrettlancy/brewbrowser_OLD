@@ -20,10 +20,11 @@ html, body {
 
 body {
 	background-image: url("../img/site-background.jpg");
-	background-size: 100%;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	}
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 	
 /***** Home Page *****/
 .banner img {
@@ -49,8 +50,12 @@ body {
 	border-style: solid;
 	border-width: 1px;
 	border-color:#222;
-	height: 100%;
+	height:150%;
+	max-height: 63vh;
 	z-index: 3;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	
 }
 
 #row-pad {
