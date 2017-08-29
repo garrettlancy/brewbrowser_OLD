@@ -21,6 +21,6 @@
 
 </div>
 
-<div class="map-border" id="map"></div>
+<div id="map"></div>
 
 <%@ include file="common/footer.jspf" %>
