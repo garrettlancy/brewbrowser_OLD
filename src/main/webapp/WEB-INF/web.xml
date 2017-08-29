@@ -38,6 +38,7 @@
 		<url-pattern>*.otf</url-pattern>
 		<url-pattern>*.pdf</url-pattern>
 		<url-pattern>*.tif</url-pattern>
+		<url-pattern>*.jpeg</url-pattern>
 
 	</servlet-mapping>
 </web-app>

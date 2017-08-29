@@ -27,6 +27,7 @@ html, body {
 	font-family: 'Montserrat', sans-serif;
 	height:inherit;
     background-repeat: no-repeat;
+    background-size: cover;
     position:relative;
     overflow:hidden;
     width:100%;
@@ -99,8 +100,8 @@ html, body {
 	-o-text-overflow: clip;
 	text-overflow: clip;
 	background: rgba(255, 255, 255, 1);
-	-webkit-box-shadow: 2px 2px 2px 0 rgba(140, 140, 140, 0.32);
-	box-shadow: 2px 2px 2px 0 rgba(140, 140, 140, 0.32);
+	-webkit-box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.7);
+	box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.7);
 }
 
 .brewery-tile img {
@@ -213,6 +214,7 @@ html, body {
 	color: #333;
 	font-size: 20px;
 	content: attr(title);
+	font-family: 'Permanent Marker', cursive;
 	position: relative;
 	top:15px;
 }

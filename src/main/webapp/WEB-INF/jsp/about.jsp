@@ -3,24 +3,25 @@
 <%@ include file="common/header.jspf"%>
 
 
-<div class="container text-center">
+<div class="container text-center photo-div">
 	<h2>About BrewBrowser</h2>
 	<br>
-	<div class="inline">
-		<img class="col-md-4" src="img/brewskies.jpg" /> <img class="col-md-4"
-			src="img/brewskie2.jpg" /> <img class="col-md-4" src="img/brewskie3.jpg" />
+	<div>
+		<div class="polaroids">
+			<div class="polaroids-odd">
+				<a href="https://garrettlancy.github.io/" title="Garrett Lancy"
+					target="_blank"><img src="img/contact/garrett.jpg" /></a>
+			</div>
+			<div class="polaroids-even">
+				<a href="https://javajustin91.github.io/" title="Justin Jones"
+					target="_blank"><img src="img/contact/justin.jpg" /></a>
+			</div>
+		</div>
+		<div class="text-center polaroid-caption">
+			<div class="caption-content">Garrett Lancy Co-Founder and CEO</div>
+			<div class="caption-content">Justin Jones Co-Founder and COO</div>
+		</div>
 	</div>
-	<br> <br>
-	<p>BrewBrowser is the innovative, cutting edge platform for finding
-		your new favorite brewery in the state of Ohio. Our mission is to
-		deliver and simplify a process which will allow you to discover the
-		most interesting and refreshing breweries that our great state offers.
-		We have created a platform that allows our users to search breweries
-		based on filters, but also through our innovative tile system. Our
-		partnered breweries have a broad platform to present their selections,
-		and a place to connect with beer lovers all across the state of Ohio,
-		and soon the country. Please enjoy our platform. Made by beer lovers
-		for beer lovers.</p>
 </div>
 
 

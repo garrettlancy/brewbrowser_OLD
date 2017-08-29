@@ -17,9 +17,5 @@ public class HomeController {
 	public String displayAboutPage() {
 		return "about";
 	}
-	
-	@RequestMapping("/contact")
-	public String displayContactPage() {
-		return "contact";
-	}
+
 }
